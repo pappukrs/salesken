@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="./CSS/signup.css" />
+    <link rel="stylesheet" href="./Components/Navbar/Navbar.css" />
+  </head>
+  <body>
+    <section id="header"></section>
+    <div class="signup-box">
+      <h2>Sign Up</h2>
+      <form id="signup-form">
+        <div class="user-box">
+          <input type="email" name="email" required />
+          <label>Email</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="username" required />
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="password" required />
+          <label>Password</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <br />
+        <span> have Already Account?</span>
+        <span><a href="./login.html">login</a></span>
+      </form>
+    </div>
+    <script type="module" src="./JS/signup.js"></script>
+  </body>
+</html>

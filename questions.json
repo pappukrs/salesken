@@ -1,0 +1,108 @@
+{
+    "questions": [
+      
+        {
+          "question": "What is the correct way to declare a variable in JavaScript?",
+          "options": [
+          "var myVariable;",
+          "variable myVariable;",
+          "myVariable = var;",
+          "myVariable = 'variable';"
+          ],
+          "answer": "var myVariable;"
+          }
+      ,
+      {
+        "question": "Which method is used to add new elements to an array in JavaScript?",
+        "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+        ],
+        "answer": "push()"
+        },
+
+        {
+          "question": "What is the result of 10 + '20' in JavaScript?",
+          "options": [
+          "1020",
+          "30",
+          "Error",
+          "NaN"
+          ],
+          "answer": "1020"
+          },
+          {
+            "question": "What is the difference between == and === in JavaScript?",
+            "options": [
+            "Both are the same",
+            "== compares the values and types, while === compares only the values",
+            "=== compares the values and types, while == compares only the values",
+            "Neither of them compares the values or types"
+            ],
+            "answer": "=== compares the values and types, while == compares only the values"
+            },
+            {
+              "question": "Which of the following is not a JavaScript data type?",
+              "options": [
+              "String",
+              "Boolean",
+              "Number",
+              "Decimal"
+              ],
+              "answer": "Decimal"
+              },
+              {
+                "question": "What is the output of console.log(typeof []) in JavaScript?",
+                "options": [
+                "Array",
+                "Object",
+                "Null",
+                "Undefined"
+                ],
+                "answer": "Object"
+                },
+                {
+                  "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+                  "options": [
+                  "To enable strict mode for the current script",
+                  "To disable strict mode for the current script",
+                  "To define a new variable",
+                  "To import a module"
+                  ],
+                  "answer": "To enable strict mode for the current script"
+                  },
+                  {
+                    "question": "What does the 'this' keyword refer to in JavaScript?",
+                    "options": [
+                    "The global object",
+                    "The current function",
+                    "The object that the function is a method of",
+                    "The object that contains the function"
+                    ],
+                    "answer": "The object that the function is a method of"
+                    },
+                    {
+                      "question": "What is the difference between let and var in JavaScript?",
+                      "options": [
+                      "Both are the same",
+                      "let is block-scoped, while var is function-scoped",
+                      "var is block-scoped, while let is function-scoped",
+                      "Neither of them is scoped"
+                      ],
+                      "answer": "let is block-scoped, while var is function-scoped"
+                      },
+                      {
+                        "question": "What is the purpose of the document object in JavaScript?",
+                        "options": [
+                        "To manipulate the HTML document",
+                        "To create new objects",
+                        "To define a new function",
+                        "To handle errors"
+                        ],
+                        "answer": "To manipulate the HTML document"
+                        }
+    ]
+  }
+  

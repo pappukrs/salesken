@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Page</title>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/login.css" />
+    <link rel="stylesheet" href="./Components/Navbar/Navbar.css" />
+  </head>
+  <body>
+    <section id="header"></section>
+    <div class="login-box">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="user-box">
+          <input type="text" name="username" required />
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="password" required />
+          <label>Password</label>
+        </div>
+        <button type="submit">Login</button>
+        <br />
+        <span>Not have Account?</span>
+        <span><a href="./signup.html">register</a></span>
+      </form>
+    </div>
+    <script type="module" src="./JS/login.js"></script>
+  </body>
+</html>
